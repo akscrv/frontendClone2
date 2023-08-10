@@ -1,0 +1,118 @@
+
+.hero-container { 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%; 
+    height: 95%; 
+    z-index: -1;
+     filter: drop-shadow(-166px -80px 0px rgb(222, 233, 239)) drop-shadow(-100px -80px 0px rgba(255, 255, 255, 0.84)); 
+     object-fit: cover;
+  }
+  
+  .text-container {
+    color: #5b5757;
+    max-width: 40%; 
+    padding: 20px;
+    margin-left: 4%; 
+    position: relative;
+    top:-10%
+  }
+  
+  .text-container h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: lighter;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .text-container {
+      max-width: 80%; 
+      margin: 0 auto; 
+    }
+  }
+  
+.arrow {
+    margin-top: 30px;
+    font-size: 4rem;
+    color: cadetblue;
+    animation: bounceUpDown 1s infinite alternate; 
+  }
+
+
+  
+  
+  @keyframes bounceUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(50px);
+    }
+  }
+
+
+  .vapour {
+    position: absolute;
+    left: 0;
+    width: 90%;
+    display: flex;
+    z-index: 0;
+    padding: 0 28px;
+  }
+  
+  .vapour span {
+    position: relative;
+    bottom: 50px;
+    display: block;
+    min-width: 8px;
+    height: 120px;
+    background: #ffffff;
+    border-radius: 50%;
+    animation: animate 15s linear infinite;
+    opacity: 0;
+    filter: blur(8px);
+    animation-delay: calc(var(--i) * 0.5s); 
+    overflow-x: hidden;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateY(-400px) scaleX(150); 
+      opacity: 1;
+    } 
+    5% { 
+      opacity: 1;
+    }
+    15%{
+      opacity: 1;
+    }  
+    20% {
+      transform: translateY(-200) scaleX(150); 
+      opacity: 1; 
+    }
+   
+    100% {
+      transform: translateY(-100px) scaleX(10); 
+      opacity: 0; 
+    }
+   } 
+
+  
+
+  

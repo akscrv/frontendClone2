@@ -1,0 +1,130 @@
+.seventh-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 10rem;
+  }
+  .seventh-section-1{
+    padding: 20px;
+    width: 35%;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+  }
+  
+  .seventh-section {
+    width: 350px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2rem;
+    transition: .8s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .seventh-section-1 h2 {
+    font-size: 40px;
+    padding: 1.5rem;
+    padding-top: 0;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.698);
+  }
+  .seventh-section-1 p {
+    font-size: 30px;
+    padding: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.698);
+  }
+  
+  .seventh-text-2 {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.632);
+  }
+  
+  .seventh-image {
+    width: 100%;
+    max-width: 320px;
+    max-height: 550px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .explore-link {
+    padding: 1rem 3.5rem;
+    margin-left: 1.5rem;
+    border: 4px solid cadetblue; 
+    background-color: cadetblue;
+    cursor: pointer;
+    color: rgb(255, 255, 255); 
+    font-weight: 700;
+    font-size: 22px; 
+  }
+  .blue-lagoon-text {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(142, 177, 193);
+    margin: 20px 0; 
+  }
+  .three-divs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2;
+  }
+
+  .seventh-image-container {
+    overflow: hidden;
+    position: relative;
+  }
+  .seventh-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s ease;
+  }
+  
+  .seventh-section:hover img {
+    transform: scale(1.07); /* Zoom in by 10% (adjust as desired) */
+  }
+  
+ 
+  .seventh-section:hover{
+    transform: translateY(-25px);
+  }
+
+
+  @media only screen and (max-width: 1200px) and (min-width: 1050px) {
+
+    .seventh-section {
+      width: 292px;
+      margin-right: 10px;
+      position: relative;
+      overflow: hidden;
+      margin-top: 2rem;
+      transition: .8s ease-in-out;
+      cursor: pointer;
+  }
+
+
+  }
+
+  @media only screen and (max-width: 1050px) and (min-width: 968px) {
+
+    .seventh-section {
+      width: 267px;
+      margin-right: 10px;
+      position: relative;
+      overflow: hidden;
+      margin-top: 2rem;
+      transition: .8s ease-in-out;
+      cursor: pointer;
+  }
+
+
+  }

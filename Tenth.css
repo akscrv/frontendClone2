@@ -1,0 +1,130 @@
+.container_10{
+    margin-bottom: 4rem;
+    height: 100vh;
+    padding: 51px 0px 30px 150px;
+  }
+  
+  .inner_colour_10{
+    background: linear-gradient(rgb(216, 231, 230), rgb(245, 246, 245));
+    height: 501px;
+    /* width: 100%; */
+    z-index: 1;
+    padding: 75px;
+    display: flex;
+    
+  }
+  .con_1_div_1_h1_xx{
+    color: #50545A;
+    font-size: 42px;
+    margin-bottom: 90px;
+  }
+  .con_1_div_1_p{
+    font-size: 14px;
+  }
+  
+  
+  .con_10_div_1{
+  
+    width: 450px;
+    margin-left: -152px;
+  
+  }
+  
+  .con_10_div_2{
+    margin-left: 100px;
+    z-index: 0;
+  
+  }
+  
+  .con_10_div_2_img_1{
+  
+    width: 580px;
+    margin-top: -43px !important;
+    height: 658px;
+    margin-bottom: 110px;
+    margin-left: 90px;
+    z-index: 1;
+  
+  }
+
+  .con_10_div_2_img_2{
+
+  width: 295px;
+  margin-left: 50px;
+  height: 410px;
+  }
+  
+  .button_10_div{
+    max-width: calc(178.22px + 13.913vw);
+      padding: calc(8.6004px + 0.6714vw) calc(11.467px + 0.8952vw);
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      text-align: center;
+      border: 0px;
+      background: linear-gradient(90deg, rgba(80, 167, 186, 0.95), rgba(103, 147, 174, 0.95));
+      color: rgb(255, 255, 255);
+      box-shadow: none;
+      overflow: hidden;
+      margin: calc(7.6448px + 0.5968vw) 0px 0px;
+      position: relative;
+      border-radius: 0px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 30px;
+  }
+
+  .div_10_flex{
+    display: inline-flex;
+  }
+  .first_p_10_blue{
+    color: #3B7EAB;
+    margin-right: 30px;
+    width: 250px;
+    font-size: 14px;
+    margin: 5px;
+    margin-right: 30px;
+  }
+
+  .first_p_10{
+    
+    
+    width: 250px;
+    font-size: 14px;
+    margin: 5px;
+    margin-right: 30px;
+  }
+  .first_p_10_x{
+    font-size: 14px;
+    width: 250px;
+    margin: 5px;
+  }
+  .tenth-text{
+    transition: .3s ease;
+  }
+
+  .white_div_10{
+    background-color: #fff;
+    width: 620px;
+    padding: 60px;
+    margin-bottom: 30px;
+    margin-left: -51px;
+    z-index: 999;
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #50545A;
+  }
+  .con_10_sigh_dic{
+    display: inline-flex;
+
+  }
+  .con_1_div_1_p_bluex{
+    color:#3B7EAB ;
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: 700;
+  }
+ 
